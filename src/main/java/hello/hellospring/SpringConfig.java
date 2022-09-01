@@ -6,6 +6,7 @@ import hello.hellospring.service.MemberService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+// + Service와 Repository에서 @Service, @Repository, @Autowired 애노테이션 제거 후 Config 파일 작성
 @Configuration
 public class SpringConfig {
 
